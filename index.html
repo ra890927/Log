@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
         <style>
-            #header{
-                height: 10vh;
+            #bg{
+                height: auto;
                 background-color: aquamarine;
             }
 
@@ -25,13 +25,6 @@
                 content: "";
                 display: inline-block;
             }
-
-            /*.row::before{
-                vertical-align: middle;
-                height: 100%;
-                content: "";
-                display: inline-block;
-            }*/
             
             .navbar-nav{
                 justify-content: space-between;
@@ -43,31 +36,35 @@
 
     <body>
         <header id="header">
-            <div class="container" style="text-align: center;">
-                <div class="row top-bar">
-                    <div class="col" style="display: inline-block; vertical-align: middle;">
-                        <h1 style="font-weight: bolder;">
-                            <img src="./information/logo.png" alt="logo" style="height: 5vh; vertical-align: middle;">
-                            <strong>龍延科技環保工程有限公司</strong>
-                        </h1>
+            <div id="bg">
+                <div class="container" style="text-align: center;">
+                    <div class="row top-bar">
+                        <div class="col" style="display: inline-block; vertical-align: middle;">
+                            <p style="font-weight: bolder; font-size: 3em;">
+                                <img src="./information/logo.png" alt="logo" style="height: 5vh;">
+                                龍延科技環保工程有限公司
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-fill w-100 col-md-8" style="margin: auto;">
+                        <a class="nav-link" href="#">公司簡介</a>
+                        <a class="nav-link" href="#">營業項目</a>
+                        <a class="nav-link" href="#">公司證照</a>
+                        <a class="nav-link" href="#">聯絡方式</a>
+                    </div>
+                </div>
+            </nav>
         </header>
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav nav-fill w-100 col-md-8" style="margin: auto;">
-                    <a class="nav-link" href="#">公司簡介</a>
-                    <a class="nav-link" href="#">營業項目</a>
-                    <a class="nav-link" href="#">公司證照</a>
-                    <a class="nav-link" href="#">聯絡方式</a>
-                </div>
-            </div>
-        </nav>
+        
 
         
 
