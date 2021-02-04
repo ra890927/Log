@@ -1,21 +1,12 @@
+/*---- header ----*/
+
 #header{
     height: auto;
-    background-color: aquamarine;
-}
-
-#item{
-
-}
-
-#contact{
-
-}
-
-#footer{
-    background: #245c00;
+    background-color: #80d81c;
 }
 
 .top-bar{
+    text-align: center;
     display: inline-block;
     vertical-align: middle;
 }
@@ -46,6 +37,12 @@
     justify-content: center;
 }
 
+/*---- item ----*/
+
+#item{
+
+}
+
 .icon-circle i{
     vertical-align: middle;
     display: inline-block;
@@ -73,19 +70,21 @@
     border: 3px gray dashed;
     border-radius: 30px;
     margin: 5vh auto;
+    padding: 10px;
 }
+
+/*---- service ----*/
 
 .slader{
     margin: 30px auto;
-    border: 20px #2e8b57 solid;
-    width: 114vh;
     height: 67vh;
 }
 
-.slader div{
+.slader img{
+    height: 63vh;
+    width: 112vh;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
     opacity: 0;
     filter: alpha(opacity = 0);
     -webkit-animation: round 25s linear infinite;
@@ -122,27 +121,62 @@
     }
 }
 
-.slader div:nth-child(5){
+.slader img:nth-child(5){
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
 }
 
-.slader div:nth-child(4){
+.slader img:nth-child(4){
     -webkit-animation-delay: 5s;
     animation-delay: 5s;
 }
 
-.slader div:nth-child(3){
+.slader img:nth-child(3){
     -webkit-animation-delay: 10s;
     animation-delay: 10s;
 }
 
-.slader div:nth-child(2){
+.slader img:nth-child(2){
     -webkit-animation-delay: 15s;
     animation-delay: 15s;
 }
 
-.slader div:nth-child(1){
+.slader img:nth-child(1){
     -webkit-animation-delay: 20s;
     animation-delay: 20s;
+}
+
+/*---- contact ----*/
+
+#contact{
+    background: #dcdcdc;
+}
+
+/*---- footer ----*/
+
+#footer{
+    color: white;
+    background: #245c00;
+    height: 10vh;
+    border-top: 5px #b2de81 solid;
+}
+
+.footer-text div{
+    vertical-align: middle;
+}
+
+.footer-text::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    color: yellowgreen;
 }
