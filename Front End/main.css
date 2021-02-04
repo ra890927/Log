@@ -2,7 +2,10 @@
 
 #header{
     height: auto;
-    background-color: #80d81c;
+    background-image: url("../../photo/header_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 
 .top-bar{
@@ -19,7 +22,7 @@
 }
 
 .logo{
-    height: 5vh;
+    height: 45px;
     vertical-align: middle;
     display: inline-block;
 }
@@ -27,9 +30,22 @@
 .company-name{
     font-weight: bolder;
     font-size: 3em;
+    color: rgb(229, 226, 226);
     vertical-align: middle;
     display: inline-block;
     text-align: center;
+}
+
+@media (min-width: 300px){
+    .company-name::before{
+        content: "龍延科技";
+    }
+}
+
+@media (min-width: 800px){
+    .company-name::before{
+        content: "龍延科技環保工程有限公司";
+    }
 }
 
 .navbar-nav{
@@ -69,26 +85,47 @@
 .text-border{
     border: 3px gray dashed;
     border-radius: 30px;
-    margin: 5vh auto;
+    margin: 3rem auto;
     padding: 10px;
 }
 
 /*---- service ----*/
 
-.slader{
-    margin: 30px auto;
-    height: 67vh;
+@media (min-width: 300px){
+    .slider{
+        position: relative;
+        height: 192px;
+        margin: 2rem auto;
+    }
 }
 
-.slader img{
-    height: 63vh;
-    width: 112vh;
+@media (min-width: 600px){
+    .slider{
+        position: relative;
+        height: 378px;
+        margin: 2rem auto;
+    }
+}
+
+@media (min-width: 800px){
+    .slider{
+        position: relative;
+        height: 621px;
+        margin: 2rem auto;
+    }
+}
+
+.slider img{
     position: absolute;
-    top: 0%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
     filter: alpha(opacity = 0);
     -webkit-animation: round 25s linear infinite;
     animation: round 25s linear infinite;
+    margin: auto;
 }
 
 @-webkit-keyframes round{
@@ -121,27 +158,27 @@
     }
 }
 
-.slader img:nth-child(5){
+.slider img:nth-child(5){
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
 }
 
-.slader img:nth-child(4){
+.slider img:nth-child(4){
     -webkit-animation-delay: 5s;
     animation-delay: 5s;
 }
 
-.slader img:nth-child(3){
+.slider img:nth-child(3){
     -webkit-animation-delay: 10s;
     animation-delay: 10s;
 }
 
-.slader img:nth-child(2){
+.slider img:nth-child(2){
     -webkit-animation-delay: 15s;
     animation-delay: 15s;
 }
 
-.slader img:nth-child(1){
+.slider img:nth-child(1){
     -webkit-animation-delay: 20s;
     animation-delay: 20s;
 }
@@ -149,7 +186,8 @@
 /*---- contact ----*/
 
 #contact{
-    background: #dcdcdc;
+    padding: 20px;
+    background: #EAFFD0;
 }
 
 /*---- footer ----*/
