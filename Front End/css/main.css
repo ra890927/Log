@@ -1,6 +1,10 @@
 #header{
-    height: auto;
-    background-color: aquamarine;
+    height: 500px;
+    /* background-color: aquamarine; */
+    background-image: url("../../photo/header_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 
 #item{
@@ -36,6 +40,7 @@
 .company-name{
     font-weight: bolder;
     font-size: 3em;
+    color: rgb(229, 226, 226);
     vertical-align: middle;
     display: inline-block;
     text-align: center;
