@@ -1,8 +1,22 @@
+/*---- layout ----*/
+
+@media (min-width: 300px){
+    #footer{
+        font-size: 0.1em;
+    }
+}
+
+@media (min-width: 800px){
+    #footer{
+        font-size: 1em;
+    }
+}
+
 /*---- header ----*/
 
 #header{
     height: auto;
-    background-image: url("../../photo/header_bg.jpg");
+    background-image: url("../photo/header_bg.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -56,7 +70,7 @@
 /*---- item ----*/
 
 #item{
-
+    /* background: #f3f3f3; */
 }
 
 .icon-circle i{
@@ -83,36 +97,36 @@
 }
 
 .text-border{
-    border: 3px gray dashed;
+    /* border: 3px gray dashed; */
     border-radius: 30px;
-    margin: 3rem auto;
-    padding: 10px;
+    margin-top: 1rem;
+    padding: 10px 30px;
+    background: #bbdfc8;
 }
 
 /*---- service ----*/
 
-@media (min-width: 300px){
+@media (max-width: 576px){
     .slider{
-        position: relative;
-        height: 192px;
-        margin: 2rem auto;
+        height: 180px;
     }
 }
 
-@media (min-width: 600px){
+@media (min-width: 576px){
     .slider{
-        position: relative;
-        height: 378px;
-        margin: 2rem auto;
+        height: 360px;
     }
 }
 
-@media (min-width: 800px){
+@media (min-width: 992px){
     .slider{
-        position: relative;
-        height: 621px;
-        margin: 2rem auto;
+        height: 540px;
     }
+}
+
+.slider{
+    position: relative;
+    margin: 1rem auto;
 }
 
 .slider img{
@@ -195,7 +209,7 @@
 #footer{
     color: white;
     background: #245c00;
-    height: 10vh;
+    height: 5rem;
     border-top: 5px #b2de81 solid;
 }
 
@@ -213,8 +227,13 @@
 #footer a{
     color: white;
     text-decoration: none;
+    margin: auto 5px;
 }
 
 #footer a:hover{
     color: yellowgreen;
+}
+
+#footer .col-md-6{
+    text-align: center;
 }
