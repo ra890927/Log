@@ -15,11 +15,12 @@
 /*---- header ----*/
 
 #header{
-    height: auto;
+    height: 10em;
     background-image: url("../photo/header_bg.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+    padding-top: 1.5em;
 }
 
 .top-bar{
@@ -71,6 +72,8 @@
 
 #item{
     /* background: #f3f3f3; */
+    margin: 10px 8px;
+    margin-top: 1rem;
 }
 
 .icon-circle i{
@@ -97,11 +100,11 @@
 }
 
 .text-border{
-    /* border: 3px gray dashed; */
+    /*border: 5px rgb(4, 100, 25) dashed;*/
     border-radius: 30px;
-    margin-top: 1rem;
     padding: 10px 30px;
-    background: #bbdfc8;
+    background: #EAFFD0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*---- service ----*/
@@ -140,6 +143,7 @@
     -webkit-animation: round 25s linear infinite;
     animation: round 25s linear infinite;
     margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @-webkit-keyframes round{
