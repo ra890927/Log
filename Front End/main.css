@@ -1,3 +1,11 @@
+p{
+    font-size: 1em;
+    color: #a1a1a1;
+}
+html{
+    scroll-behavior: smooth;
+}
+
 /*---- layout ----*/
 
 @media (min-width: 300px){
@@ -68,6 +76,23 @@
     justify-content: center;
 }
 
+/*---- intorduction ---*/
+
+.subheading{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    color: #25b83b;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.vcenter-item{
+    display: flex;
+    align-items: center;
+}
+
 /*---- item ----*/
 
 #item{
@@ -129,7 +154,7 @@
 
 .slider{
     position: relative;
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
 
 .slider img{
