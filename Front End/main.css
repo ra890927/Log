@@ -5,9 +5,6 @@ p{
 html{
     scroll-behavior: smooth;
 }
-section{
-    margin: 4em 8px;
-}
 
 /*---- layout ----*/
 
@@ -81,6 +78,11 @@ section{
 
 /*---- intorduction ---*/
 
+#introduction{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 .subheading{
     font-size: 16px;
     display: block;
@@ -100,24 +102,36 @@ section{
 
 #item{
     /* background: #f3f3f3; */
-    margin: 10px 8px;
-    margin-top: 1rem;
+    margin: 2em 8px;
+}
+
+@media (min-width: 300px){
+    .icon-circle i{
+        line-height: 100px;
+        width: 100px;
+        font-size: 36px;
+        margin-top: 35px;
+    }
+}
+
+@media (min-width: 800px){
+    .icon-circle i{
+        line-height: 110px;
+        width: 110px;
+        font-size: 48px;
+        margin-top: 15px;
+    }
 }
 
 .icon-circle i{
     vertical-align: middle;
     display: inline-block;
     border-radius: 100%;
-    height: 110px;
-    width: 110px;
     text-align: center;
     float: left;
     background-color: #25b83b;
-    font-size: 48px;
-    line-height: 110px;
     color: white;
     margin-right: 10px;
-    margin-top: 10px;
 }
 
 .icon-circle::before{
@@ -137,7 +151,33 @@ section{
 
 /*---- service ----*/
 
+#services{
+    margin: 1.5em auto;
+}
 
+@media (min-width: 300px){
+    .service-border{
+        font-size: 1.5em;
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px){
+    .service-border{
+        font-size: 2em;
+        width: 98%;
+    }
+}
+
+.service-border{
+    height: 90%;
+    background: #EAFFD0;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .large{
     counter-reset: list-counter;
