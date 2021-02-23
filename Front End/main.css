@@ -288,20 +288,20 @@ html{
 /*---- footer ----*/
 
 @media (max-width: 576px){
-    #footer{
+    .footer{
         font-size: 0.5em;
-        height: 8em;
+        height: 6rem;
     }
 }
 
 @media (min-width: 992px){
-    #footer{
+    .footer{
         font-size: 1em;
-        height: 5em;
+        height: 5rem;
     }
 }
 
-#footer{
+.footer{
     color: white;
     background: #245c00;
     border-top: 5px #b2de81 solid;
