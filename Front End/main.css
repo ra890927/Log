@@ -35,6 +35,12 @@ html{
     }
 }
 
+@media (min-width: 576px){
+    .slider{
+        height: 360px;
+    }
+}
+
 @media (min-width: 992px){
     .footer{
         height: 5rem;
@@ -58,12 +64,6 @@ html{
 
     .slider{
         height: 540px;
-    }
-}
-
-@media (min-width: 576px){
-    .slider{
-        height: 360px;
     }
 }
 
