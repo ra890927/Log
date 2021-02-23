@@ -1,12 +1,71 @@
+/*---- layout ----*/
+
 p{
     font-size: 1em;
     color: #a1a1a1;
 }
+
 html{
     scroll-behavior: smooth;
 }
 
-/*---- layout ----*/
+@media (max-width: 576px){
+    .footer{
+        height: 6.3rem;
+    }
+
+    .company-name::before{
+        content: "龍延科技";
+    }
+
+    .icon-circle i{
+        line-height: 100px;
+        width: 100px;
+        font-size: 36px;
+        margin-top: 35px;
+    }
+
+    .service-border{
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .slider{
+        height: 180px;
+    }
+}
+
+@media (min-width: 992px){
+    .footer{
+        height: 5rem;
+    }
+
+    .company-name::before{
+        content: "龍延科技環保工程有限公司";
+    }
+
+    .icon-circle i{
+        line-height: 110px;
+        width: 110px;
+        font-size: 48px;
+        margin-top: 15px;
+    }
+
+    .service-border{
+        font-size: 2em;
+        width: 98%;
+    }
+
+    .slider{
+        height: 540px;
+    }
+}
+
+@media (min-width: 576px){
+    .slider{
+        height: 360px;
+    }
+}
 
 /*---- header ----*/
 
@@ -47,21 +106,14 @@ html{
     text-align: center;
 }
 
-@media (max-width: 576px){
-    .company-name::before{
-        content: "龍延科技";
-    }
-}
-
-@media (min-width: 992px){
-    .company-name::before{
-        content: "龍延科技環保工程有限公司";
-    }
-}
-
 .navbar-nav{
     justify-content: space-between;
     justify-content: center;
+    margin: 0 auto;
+}
+
+.navbar{
+    background: #e7e6e1;
 }
 
 /*---- intorduction ---*/
@@ -69,6 +121,20 @@ html{
 #introduction{
     margin-top: 1em;
     margin-bottom: 2em;
+}
+
+.intro-photo{
+    width: 90%;
+    height: auto;
+}
+
+.col-md-6 .mt-4{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-md-6 .mt-4 p{
+    line-height: 2em;
 }
 
 .subheading{
@@ -81,34 +147,11 @@ html{
     letter-spacing: 2px;
     font-weight: 900;
 }
-.vcenter-item{
-    display: flex;
-    align-items: center;
-}
 
 /*---- item ----*/
 
 #item{
-    /* background: #f3f3f3; */
     margin: 2em 8px;
-}
-
-@media (max-width: 576px){
-    .icon-circle i{
-        line-height: 100px;
-        width: 100px;
-        font-size: 36px;
-        margin-top: 35px;
-    }
-}
-
-@media (min-width: 992px){
-    .icon-circle i{
-        line-height: 110px;
-        width: 110px;
-        font-size: 48px;
-        margin-top: 15px;
-    }
 }
 
 .icon-circle i{
@@ -130,31 +173,20 @@ html{
 }
 
 .text-border{
-    /*border: 5px rgb(4, 100, 25) dashed;*/
     border-radius: 30px;
     padding: 10px 30px;
     background: #EAFFD0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.text-border h2{
+    text-align: center;
+}
+
 /*---- service ----*/
 
 #services{
     margin: 1.5em auto;
-}
-
-@media (max-width: 576px){
-    .service-border{
-        font-size: 1.5em;
-        width: 100%;
-    }
-}
-
-@media (min-width: 992px){
-    .service-border{
-        font-size: 2em;
-        width: 98%;
-    }
 }
 
 .service-border{
@@ -165,43 +197,6 @@ html{
     margin: 5px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.large{
-    counter-reset: list-counter;
-    list-style: none;
-}
-.large li{
-    margin: 2em 0;
-    line-height: 1em;
-    font-size: 1.5em
-}
-.large li:before{
-    content: counter(list-counter);
-    counter-increment: list-counter;
-    font-family: arial;
-    color:#666;
-    font: bold;
-    font-size: 2em;
-    margin-right: .5em;
-}
- 
-@media (max-width: 576px){
-    .slider{
-        height: 180px;
-    }
-}
-
-@media (min-width: 576px){
-    .slider{
-        height: 360px;
-    }
-}
-
-@media (min-width: 992px){
-    .slider{
-        height: 540px;
-    }
 }
 
 .slider{
@@ -286,18 +281,6 @@ html{
 }
 
 /*---- footer ----*/
-
-@media (max-width: 576px){
-    .footer{
-        height: 6.3rem;
-    }
-}
-
-@media (min-width: 992px){
-    .footer{
-        height: 5rem;
-    }
-}
 
 .footer{
     font-size: 1em;
