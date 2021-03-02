@@ -71,7 +71,7 @@ html{
 
 #header{
     height: 10em;
-    background-image: url("../photo/header_bg.jpg");
+    background-image: url("../photo/header.webp");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
