@@ -71,7 +71,7 @@ html{
 
 #header{
     height: 10em;
-    background-image: url("../photo/header.webp");
+    background-image: url("../photo/header.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -184,6 +184,8 @@ html{
 .item-text{
     font-size: 28px;
     text-align: center;
+    color: #3e661a;
+    font-weight: bold;
 }
 
 .text-border h2{
@@ -203,6 +205,8 @@ html{
     margin: 5px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #3e661a;
+    font-weight: bold;
 }
 
 .slider{
