@@ -127,6 +127,7 @@ html{
     width: 90%;
     height: auto;
     text-align: center;
+    margin: 0 auto;
 }
 
 .col-md-6 .mt-4{
@@ -196,7 +197,6 @@ html{
 }
 
 .service-border{
-    /* height: 90%; */
     background: #EAFFD0;
     border-radius: 10px;
     padding: 8px;
