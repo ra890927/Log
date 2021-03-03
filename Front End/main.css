@@ -71,7 +71,7 @@ html{
 
 #header{
     height: 10em;
-    background-image: url("../photo/header.jpg");
+    background-image: url("../photo/header_edit.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -301,6 +301,10 @@ html{
 #contact{
     padding: 20px;
     background: #EAFFD0;
+}
+
+.col-md p{
+    color: #3e661a;
 }
 
 /*---- footer ----*/
