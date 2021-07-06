@@ -71,7 +71,7 @@ html{
 
 #header{
     height: 10em;
-    background-image: url("../photo/header_edit.jpg");
+    background-image: url("../photo/header_edit.webp");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -158,7 +158,6 @@ html{
 
 .icon-circle i{
     vertical-align: middle;
-    display: inline-block;
     border-radius: 100%;
     text-align: center;
     float: left;
@@ -214,7 +213,7 @@ html{
     margin: 2rem auto;
 }
 
-.slider img{
+.slider picture img{
     position: absolute;
     height: 100%;
     top: 50%;
@@ -222,8 +221,8 @@ html{
     transform: translate(-50%, -50%);
     opacity: 0;
     filter: alpha(opacity = 0);
-    -webkit-animation: round 25s linear infinite;
-    animation: round 25s linear infinite;
+    -webkit-animation: round 35s linear infinite;
+    animation: round 35s linear infinite;
     margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -258,29 +257,44 @@ html{
     }
 }
 
-.slider img:nth-child(5){
+.slider picture:nth-child(8) img{
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
 }
 
-.slider img:nth-child(4){
+.slider picture:nth-child(7) img{
     -webkit-animation-delay: 5s;
     animation-delay: 5s;
 }
 
-.slider img:nth-child(3){
+.slider picture:nth-child(6) img{
     -webkit-animation-delay: 10s;
     animation-delay: 10s;
 }
 
-.slider img:nth-child(2){
+.slider picture:nth-child(5) img{
     -webkit-animation-delay: 15s;
     animation-delay: 15s;
 }
 
-.slider img:nth-child(1){
+.slider picture:nth-child(4) img{
     -webkit-animation-delay: 20s;
     animation-delay: 20s;
+}
+
+.slider picture:nth-child(3) img{
+    -webkit-animation-delay: 25s;
+    animation-delay: 25s;
+}
+
+.slider picture:nth-child(2) img{
+    -webkit-animation-delay: 30s;
+    animation-delay: 30s;
+}
+
+.slider picture:nth-child(1) img{
+    -webkit-animation-delay: 35s;
+    animation-delay: 35s;
 }
 
 /*---- license ----*/

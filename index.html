@@ -6,7 +6,8 @@
         <meta name="viewport", content="width = device-width, initial-scale = 1.0">
         <meta name="description" content="龍延科技環保工程有限公司官方網站 Long-Yan technology Co.,Ltd. Offical Website. 專門做電子回收, 廢電腦及周邊設備回收">
         <meta name="theme-color" content="#25b83b"/>
-        <link rel="icon" href="./information/logo.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+        <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon.png">
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link href="./Front End/main.css" rel="stylesheet">
@@ -21,7 +22,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md top-bar">
-                            <img class="logo" src="./information/logo_edit.png" alt="logo">
+                            <picture>
+                                <source type="image/webp" srcset="./information/logo_edit.webp">
+                                <img class="logo" src="./information/logo_edit.png" alt="logo" height="45px">
+                            </picture>
                             <strong class="company-name"></strong>
                         </div>
                     </div>
@@ -140,11 +144,39 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md slider">
-                        <img src="./photo/IC板.webp" alt="IC板">
-                        <img src="./photo/伺服器.webp" alt="伺服器">
-                        <img src="./photo/硬碟回收.webp" alt="硬碟回收">
-                        <img src="./photo/記憶體.JPG" alt="記憶體">
-                        <img src="./photo/筆電.JPG" alt="筆電">
+                        <picture>
+                            <source type="image/webp" srcset="./photo/IC板.webp">
+                            <img src="./photo/IC板.jpg" alt="IC板">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="./photo/伺服器.webp">
+                            <img src="./photo/伺服器.jpg" alt="伺服器">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="./photo/硬碟回收.webp">
+                            <img src="./photo/硬碟回收.jpg" alt="硬碟回收">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="./photo/筆電.webp">
+                            <img src="./photo/筆電.jpg" alt="筆電">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="./photo/大貨車.webp">
+                            <img src="./photo/大貨車.jpg" alt="大貨車">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="./photo/硬碟鑽孔.webp">
+                            <img src="./photo/硬碟鑽孔.jpg" alt="硬碟穿孔">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="./photo/廢鋁料.webp">
+                            <img src="./photo/廢鋁料.jpg" alt="廢鋁料">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="./photo/電腦主機.webp">
+                            <img src="./photo/電腦主機.jpg" alt="電腦主機">
+                        </picture>
+                        
                     </div>
                 </div>
             </div>
@@ -154,11 +186,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="license-img" src="./information/清除許可證1.webp" alt="清除許可證1">
+                        <picture>
+                            <source type="image/webp" srcset="./information/清除許可證1.webp">
+                            <img class="license-img" src="./information/清除許可證1.jpg" alt="清除許可證1">
+                        </picture>
                     </div>
                     
                     <div class="col-md-6">
-                        <img class="license-img" src="./information/清除許可證2.webp" alt="清除許可證2">
+                        <picture>
+                            <source type="image/webp" srcset="./information/清除許可證2.webp">
+                            <img class="license-img" src="./information/清除許可證2.jpg" alt="清除許可證2">
+                        </picture>
                     </div>
                 </div>
             </div>
