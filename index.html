@@ -1,259 +1,336 @@
 <!DOCTYPE html>
 <html lang="tw">
-    <head>
-        <meta charset="UTF-8">
-        <title>龍延科技環保工程有限公司</title>
-        <meta name="viewport", content="width = device-width, initial-scale = 1.0">
-        <meta name="description" content="龍延科技環保工程有限公司官方網站 Long-Yan technology Co.,Ltd. Offical Website. 專門做電子回收, 廢電腦及周邊設備回收">
-        <meta name="theme-color" content="#25b83b"/>
-        <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-        <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon.png">
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link href="./Front End/main.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-        <script src="https://kit.fontawesome.com/016c62c7eb.js" crossorigin="anonymous"></script>
-    </head>
+	<head>
+		<meta charset="UTF-8" />
+		<title>龍延科技環保工程有限公司</title>
+		<meta
+			name="viewport"
+			,
+			content="width = device-width, initial-scale = 1.0"
+		/>
+		<meta
+			name="description"
+			content="龍延科技環保工程有限公司官方網站 Long-Yan technology Co.,Ltd. Offical Website. 專門做電子回收, 廢電腦及周邊設備回收"
+		/>
+		<meta name="theme-color" content="#25b83b" />
+		<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" type="image/png" href="apple-touch-icon.png" />
+		<!--Bootstrap-->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+			crossorigin="anonymous"
+		/>
+		<link href="./Front End/main.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+		<script
+			src="https://kit.fontawesome.com/016c62c7eb.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
 
-    <body>
-        <header>
-            <!-- 公司名稱banner -->
-            <div id="header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md top-bar">
-                            <picture>
-                                <source type="image/webp" srcset="./information/logo_edit.webp">
-                                <img class="logo" src="./information/logo_edit.png" alt="logo" height="45px">
-                            </picture>
-                            <strong class="company-name"></strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
+	<body>
+		<header>
+			<!-- 公司名稱banner -->
+			<div id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md top-bar">
+							<picture>
+								<source
+									type="image/webp"
+									srcset="./information/logo_edit.webp"
+								/>
+								<img
+									class="logo"
+									src="./information/logo_edit.png"
+									alt="logo"
+									height="45px"
+								/>
+							</picture>
+							<strong class="company-name"></strong>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            <!-- 選單 -->
-            <nav class="navbar navbar-expand-sm navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav nav-fill w-100 col-md-8">
-                        <a class="nav-link" href="#introduction">公司簡介</a>
-                        <a class="nav-link" href="#item">營業項目</a>
-                        <a class="nav-link" href="#license">公司證照</a>
-                        <a class="nav-link" href="#contact">聯絡方式</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+			<!-- 選單 -->
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav nav-fill w-100 col-md-8">
+						<a class="nav-link" href="#introduction">公司簡介</a>
+						<a class="nav-link" href="#item">營業項目</a>
+						<a class="nav-link" href="#license">公司證照</a>
+						<a class="nav-link" href="#contact">聯絡方式</a>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-        <!-- 公司簡介 -->
-        <section id="introduction" >
-            <!-- 配色 -->
-            <div class="container">
-                <div class="row">
-                    <!-- 簡介照片 -->
-                    <div class="col-md-6 mt-4">
-                        <picture class="intro-photo">
-                            <source type="image/webp" srcset="./photo/company_story_pic.webp">
-                            <img src="./photo/company_story_pic.png" alt="introduction" width="100%" height="auto">
-                        </picture>
-                    </div>
-                    <!-- 簡介文字 -->
-                    <div class="col-md-6 mt-4">
-                        <span class="subheading">Welcome to longyan</span>
-                        <h2><strong>提供您多元回收及清運服務</strong></h2>
-                        <p>
-                            龍延科技環保工程有限公司成立於民國88年<br>
-                            初期從事廢資訊物品回收，為能更多元服務客群，已於民國91年合法取得環保署核發之事業廢棄物清除許可證，故增加許多清運回收的品項，秉持永續經營、資源再生理念，為每一位客戶提供專業服務。
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<!-- 公司簡介 -->
+		<section id="introduction">
+			<!-- 配色 -->
+			<div class="container">
+				<div class="row">
+					<!-- 簡介照片 -->
+					<div class="col-md-6 mt-4">
+						<picture class="intro-photo">
+							<source
+								type="image/webp"
+								srcset="./photo/company_story_pic.webp"
+							/>
+							<img
+								src="./photo/company_story_pic.png"
+								alt="introduction"
+								width="100%"
+								height="auto"
+							/>
+						</picture>
+					</div>
+					<!-- 簡介文字 -->
+					<div class="col-md-6 mt-4">
+						<span class="subheading">Welcome to longyan</span>
+						<h2><strong>提供您多元回收及清運服務</strong></h2>
+						<p>
+							龍延科技環保工程有限公司成立於民國88年<br />
+							初期從事廢資訊物品回收，為能更多元服務客群，已於民國91年合法取得環保署核發之事業廢棄物清除許可證，故增加許多清運回收的品項，秉持永續經營、資源再生理念，為每一位客戶提供專業服務。
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <!-- 營業項目 -->
-        <section id="item">
-            <div class="container text-border">
-                <h2>
-                    <strong>回收項目與服務</strong>
-                </h2>
+		<!-- 營業項目 -->
+		<section id="item">
+			<div class="container text-border">
+				<h2>
+					<strong>回收項目與服務</strong>
+				</h2>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="icon-circle">
-                            <i class="fas fa-laptop"></i>
-                            <div class="item-text">電腦設備回收</div>
-                            <p>筆記型電腦/電腦主機/液晶螢幕/平板電腦/伺服器等網路設備/智慧型手機…等</p>
-                        </div>
-                    </div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="icon-circle">
+							<i class="fas fa-laptop"></i>
+							<div class="item-text">電腦設備回收</div>
+							<p>
+								筆記型電腦/電腦主機/液晶螢幕/平板電腦/伺服器等網路設備/智慧型手機…等
+							</p>
+						</div>
+					</div>
 
-                    <div class="col-md-4">
-                        <div class="icon-circle">
-                            <i class="fas fa-cash-register"></i>
-                            <div class="item-text">家電與事務機器</div>
-                            <p>液晶電視/冷氣空調/收銀機/提款機/刷卡機/列表機/投影機…等</p>
-                        </div>
-                    </div>
+					<div class="col-md-4">
+						<div class="icon-circle">
+							<i class="fas fa-cash-register"></i>
+							<div class="item-text">家電與事務機器</div>
+							<p>液晶電視/冷氣空調/收銀機/提款機/刷卡機/列表機/投影機…等</p>
+						</div>
+					</div>
 
-                    <div class="col-md-4">
-                        <div class="icon-circle">
-                            <i class="fas fa-recycle"></i>
-                            <div class="item-text">混合五金廢料</div>
-                            <p>貴金屬及邊料/電子及光電零組件及下腳品/印刷電路板及各類介面卡/電線電纜…等</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+					<div class="col-md-4">
+						<div class="icon-circle">
+							<i class="fas fa-recycle"></i>
+							<div class="item-text">混合五金廢料</div>
+							<p>
+								貴金屬及邊料/電子及光電零組件及下腳品/印刷電路板及各類介面卡/電線電纜…等
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <!-- 服務項目 -->
-        <section id="services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="service-border">
-                            <i class="fas fa-compact-disc"></i> 磁帶、光碟片等銷毀處理
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="service-border">
-                            <i class="far fa-save"></i> 硬碟鑽孔銷毀處理
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="service-border">
-                            <i class="fas fa-laptop-house"></i> 電腦機房、倉庫 清運處理
-                        </div>
-                    </div>
+		<!-- 服務項目 -->
+		<section id="services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="service-border">
+							<i class="fas fa-compact-disc"></i> 磁帶、光碟片等銷毀處理
+						</div>
+					</div>
 
-                    <div class="col-md-6">
-                        <div class="service-border">
-                            <i class="far fa-file-alt"></i> 配合國稅局申報 提供報告書
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+					<div class="col-md-6">
+						<div class="service-border">
+							<i class="far fa-save"></i> 硬碟鑽孔銷毀處理
+						</div>
+					</div>
 
-        <!-- 圖片動畫 -->
-        <section id="slider">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md slider">
-                        <picture>
-                            <source type="image/webp" srcset="./photo/IC板.webp">
-                            <img src="./photo/IC板.jpg" alt="IC板">
-                        </picture>
-                        <picture>
-                            <source type="image/webp" srcset="./photo/伺服器.webp">
-                            <img src="./photo/伺服器.jpg" alt="伺服器">
-                        </picture>
-                        <picture>
-                            <source type="image/webp" srcset="./photo/硬碟回收.webp">
-                            <img src="./photo/硬碟回收.jpg" alt="硬碟回收">
-                        </picture>
-                        <picture>
-                            <source type="image/webp" srcset="./photo/筆電.webp">
-                            <img src="./photo/筆電.jpg" alt="筆電">
-                        </picture>
-                        <picture>
-                            <source type="image/webp" srcset="./photo/大貨車.webp">
-                            <img src="./photo/大貨車.jpg" alt="大貨車">
-                        </picture>
-                        <picture>
-                            <source type="image/webp" srcset="./photo/硬碟鑽孔.webp">
-                            <img src="./photo/硬碟鑽孔.jpg" alt="硬碟穿孔">
-                        </picture>
-                        <picture>
-                            <source type="image/webp" srcset="./photo/廢鋁料.webp">
-                            <img src="./photo/廢鋁料.jpg" alt="廢鋁料">
-                        </picture>
-                        <picture>
-                            <source type="image/webp" srcset="./photo/電腦主機.webp">
-                            <img src="./photo/電腦主機.jpg" alt="電腦主機">
-                        </picture>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
+					<div class="col-md-6">
+						<div class="service-border">
+							<i class="fas fa-laptop-house"></i> 電腦機房、倉庫 清運處理
+						</div>
+					</div>
 
-        <section id="license">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <picture>
-                            <source type="image/webp" srcset="./information/清除許可證1.webp">
-                            <img class="license-img" src="./information/清除許可證1.jpg" alt="清除許可證1">
-                        </picture>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <picture>
-                            <source type="image/webp" srcset="./information/清除許可證2.webp">
-                            <img class="license-img" src="./information/清除許可證2.jpg" alt="清除許可證2">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-        </section>
+					<div class="col-md-6">
+						<div class="service-border">
+							<i class="far fa-file-alt"></i> 配合國稅局申報 提供報告書
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <!-- 聯絡資訊 -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md">
-                        <h3>聯絡方式</h3>
-                        <p>龍延科技環保工程有限公司</p>
-                    </div>
-                </div>
+		<!-- 圖片動畫 -->
+		<section id="slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-md slider">
+						<picture>
+							<source type="image/webp" srcset="./photo/IC板.webp" />
+							<img src="./photo/IC板.jpg" alt="IC板" />
+						</picture>
+						<picture>
+							<source type="image/webp" srcset="./photo/伺服器.webp" />
+							<img src="./photo/伺服器.jpg" alt="伺服器" />
+						</picture>
+						<picture>
+							<source type="image/webp" srcset="./photo/硬碟回收.webp" />
+							<img src="./photo/硬碟回收.jpg" alt="硬碟回收" />
+						</picture>
+						<picture>
+							<source type="image/webp" srcset="./photo/筆電.webp" />
+							<img src="./photo/筆電.jpg" alt="筆電" />
+						</picture>
+						<picture>
+							<source type="image/webp" srcset="./photo/大貨車.webp" />
+							<img src="./photo/大貨車.jpg" alt="大貨車" />
+						</picture>
+						<picture>
+							<source type="image/webp" srcset="./photo/硬碟鑽孔.webp" />
+							<img src="./photo/硬碟鑽孔.jpg" alt="硬碟穿孔" />
+						</picture>
+						<picture>
+							<source type="image/webp" srcset="./photo/廢鋁料.webp" />
+							<img src="./photo/廢鋁料.jpg" alt="廢鋁料" />
+						</picture>
+						<picture>
+							<source type="image/webp" srcset="./photo/電腦主機.webp" />
+							<img src="./photo/電腦主機.jpg" alt="電腦主機" />
+						</picture>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                <div class="row">
-                    <div class="col-md-3">
-                        <i class="fab fa-line"> LINE-ID: djp0523</i>
-                    </div>
+		<section id="license">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./information/清除許可證1.webp"
+							/>
+							<img
+								class="license-img"
+								src="./information/清除許可證1.jpg"
+								alt="清除許可證1"
+							/>
+						</picture>
+					</div>
 
-                    <div class="col-md-3">
-                        <i class="fas fa-phone-alt"> 02-8684-8686 姜小姐</i>
-                    </div>
+					<div class="col-md-6">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./information/清除許可證2.webp"
+							/>
+							<img
+								class="license-img"
+								src="./information/清除許可證2.jpg"
+								alt="清除許可證2"
+							/>
+						</picture>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                    <div class="col-md-3">
-                        <i class="fas fa-fax"> 02-8684-8685</i>
-                    </div>
+		<!-- 聯絡資訊 -->
+		<section id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md">
+						<h3>聯絡方式</h3>
+						<p>龍延科技環保工程有限公司</p>
+					</div>
+				</div>
 
-                    <div class="col-md-3">
-                        <i class="fas fa-map-marker-alt"> 新北市樹林區福德街3之1號</i>
-                    </div>
+				<div class="row">
+					<div class="col-md-3">
+						<i class="fas fa-phone-alt"> 02-8684-8686</i>
+					</div>
 
-                    <div class="col-md-3">
-                        <i class="far fa-envelope"><a href="mailto:longyan.com.tw@gmail.com"> longyan.com.tw@gmail.com</a></i>
-                    </div>
-                </div>
-            </div>
-        </section>
+					<div class="col-md-3">
+						<i class="fa fa-mobile"> 0928-145-567 姜小姐</i>
+					</div>
 
-        <footer id="footer" class="footer">
-            <div class="container footer-text">
-                <div class="row">
-                    <div class="col-md-6">
-                        龍延科技環保工程有限公司 版權所有
-                    </div>
-                    <div class="col-md-6">
-                        <a href="index.html#introduction">公司簡介</a>
-                        <a href="index.html#item">營業項目</a>
-                        <a href="index.html#license">公司證照</a>
-                        <a href="index.html#contact">聯絡方式</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+					<div class="col-md-3">
+						<i class="fab fa-line"> LINE-ID: djp0523</i>
+					</div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    </body>
+					<div class="col-md-3">
+						<i class="fas fa-fax"> 02-8684-8685</i>
+					</div>
+
+					<div class="col-md-3">
+						<i class="fas fa-map-marker-alt"> 新北市樹林區福德街3之1號</i>
+					</div>
+
+					<div class="col-md-3">
+						<i class="far fa-envelope">
+							<a href="mailto:longyan.com.tw@gmail.com">
+								longyan.com.tw@gmail.com
+							</a>
+						</i>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer" class="footer">
+			<div class="container footer-text">
+				<div class="row">
+					<div class="col-md-6">龍延科技環保工程有限公司 版權所有</div>
+					<div class="col-md-6">
+						<a href="index.html#introduction">公司簡介</a>
+						<a href="index.html#item">營業項目</a>
+						<a href="index.html#license">公司證照</a>
+						<a href="index.html#contact">聯絡方式</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+			integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
